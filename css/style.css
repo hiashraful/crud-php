@@ -1,0 +1,31 @@
+
+h2, h3{
+	text-align: center;
+}
+.box{
+	width:500px;
+	margin: 0 auto;
+}
+
+.area{
+	width: 500px;
+	margin: 0 auto;
+	height: auto;
+	margin-top: 5px;
+	background-color: gray;
+	padding-bottom: 10px;
+	padding-top: 10px;
+	padding-left: 30px;
+	padding-right:30px;
+}
+
+table tr td{
+	padding: 6px 2px;
+}
+h3{
+	color: #fff;
+}
+
+i{
+	color: #f2f2f2;
+}
