@@ -1,7 +1,7 @@
 <?php
 
 
-$db = new PDO('mysql:host=localhost;dbname=php67;charset=utf8mb4', 'root', '');
+$db = new PDO('mysql:host=localhost;dbname=php67;charset=utf8mb4', 'root', '12345');
 
 
 $query = "SELECT * FROM `user_info` where id = ".$_GET['id'];
