@@ -1,5 +1,5 @@
 <?php
-$db = new PDO('mysql:host=localhost;dbname=php67;charset=utf8mb4', 'root', '');
+$db = new PDO('mysql:host=localhost;dbname=php67;charset=utf8mb4', 'root', '12345');
 $_POST['hobby'] = implode(', ',$_POST['hobby']);
 
 $_POST['image_name'] = $_FILES['image']['name'];

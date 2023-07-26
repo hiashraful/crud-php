@@ -1,22 +1,5 @@
 <?php
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 $db = new PDO('mysql:host=localhost;dbname=php67;charset=utf8mb4', 'root', '');
 $_POST['hobby'] = implode(', ',$_POST['hobby']);
 
@@ -32,33 +15,3 @@ if($result == true){
 
     header('location: all_data.php');
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
